@@ -36,7 +36,7 @@ defmodule UlidFlake.MixProject do
   defp package do
     [
       name: :ulid_flake,
-      files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+      files: ["lib", "mix.exs", "README*", "LICENSE*"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/abailinrun/ulid-flake-elixir"},
       maintainers: ["abailinrun"]
